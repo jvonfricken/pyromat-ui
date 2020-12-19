@@ -115,7 +115,7 @@ class App extends Component {
                   <Card.Title>Saturation State Parameters</Card.Title>
                   <Form.Group as={Row}>
                     <Form.Label column sm="4">
-                      Pressure
+                      Pressure ({this.state.units.up})
                     </Form.Label>
                     <Col sm="8">
                       <Form.Control
@@ -130,7 +130,7 @@ class App extends Component {
                   </Form.Group>
                   <Form.Group as={Row}>
                     <Form.Label column sm="4" disabled>
-                      Temperature
+                      Temperature ({this.state.units.uT})
                     </Form.Label>
                     <Col sm="8">
                       <Form.Control
