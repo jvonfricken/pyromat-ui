@@ -189,10 +189,10 @@ class App extends Component {
                             })
                           }
                         >
+                          <option>kPa</option>
                           <option>mmHg</option>
                           <option>psi</option>
                           <option>inHg</option>
-                          <option>kPa</option>
                           <option>Pa</option>
                         </Form.Control>
                       </Col>
@@ -235,8 +235,8 @@ class App extends Component {
                             })
                           }
                         >
-                          <option>BTU</option>
                           <option>kJ</option>
+                          <option>BTU</option>
                           <option>J</option>
                           <option>cal</option>
                           <option>eV</option>
@@ -260,8 +260,8 @@ class App extends Component {
                             })
                           }
                         >
-                          <option>mg</option>
                           <option>kg</option>
+                          <option>mg</option>
                           <option>g</option>
                           <option>oz</option>
                           <option>lb</option>
