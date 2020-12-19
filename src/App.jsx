@@ -12,7 +12,7 @@ import "bootswatch/dist/flatly/bootstrap.min.css";
 import "./App.css";
 import { Component } from "react";
 
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = process.env.REACT_APP_CUSTOM_ENV_VAR;
 
 function fetchSatData(pressure, tempurature, species, units) {
   return fetch(`${BACKEND_URL}/sat`, {
